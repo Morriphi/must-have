@@ -1,9 +1,10 @@
 {
   "name": "must-have",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "little module to mandate properties on a object",
   "repository": "https://github.com/Morriphi/must-have.git",
   "main": "index.js",
+  "keywords": "must,  have,  object,  require,  key,  value"
   "scripts": {
     "test": "mocha"
   },
