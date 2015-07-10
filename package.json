@@ -1,0 +1,19 @@
+{
+  "name": "must-have",
+  "version": "1.0.0",
+  "description": "little module to mandate properties on a object",
+  "repository": "https://github.com/Morriphi/must-have.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Philip Morris",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "underscore.string": "^3.1.1"
+  }
+}
