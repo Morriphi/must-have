@@ -34,4 +34,29 @@ describe('has', function(){
     }).to.throw(Error, "Property name is required");
   });
 
+  describe('nested properties', function() {
+    it('are mandated', function() {
+      expect(function(){
+        has({}, "obj.property.value");
+      }).to.throw("Obj.property.value is required");
+
+      expect(function(){
+        has({}, "obj.property.item.value");
+      }).to.throw("Obj.property.item.value is required");
+
+      expect(function(){
+        has({}, "obj.this.is.a.deeply.nested.property");
+      }).to.throw("Obj.this.is.a.deeply.nested.property is required");
+    });
+
+    it('are ignored if provided', function() {
+      has({obj: {
+        property: {
+          item: {
+            value: {}
+          }
+        }
+      }}, "obj.property.item.value");
+    });
+  });
 });

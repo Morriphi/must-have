@@ -1,10 +1,10 @@
 {
   "name": "must-have",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "little module to mandate properties on a object",
   "repository": "https://github.com/Morriphi/must-have.git",
   "main": "index.js",
-  "keywords": "must,  have,  object,  require,  key,  value",
+  "keywords": "must,  have,  object,  require,  key,  value, nested",
   "scripts": {
     "test": "mocha"
   },
@@ -15,6 +15,7 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
+    "jspath": "^0.3.3",
     "underscore.string": "^3.1.1"
   }
 }

@@ -12,4 +12,5 @@ Will throw error if listed property is not present.
 ## use
 
 <code>var mustHave = require('must-have');</code><br />
-<code>mustHave(myObject, "name", "email");</code>
+<code>mustHave(myObject, "name", "email");</code><br />
+<code>mustHave(myObject, "works.with.nested.properties");</code>

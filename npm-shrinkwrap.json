@@ -1,7 +1,12 @@
 {
-  "name": "has",
-  "version": "1.0.0",
+  "name": "must-have",
+  "version": "1.0.1",
   "dependencies": {
+    "jspath": {
+      "version": "0.3.3",
+      "from": "jspath@*",
+      "resolved": "http://mmrepo.artifactoryonline.com/mmrepo/api/npm/npm-virtual/jspath/-/jspath-0.3.3.tgz"
+    },
     "underscore.string": {
       "version": "3.1.1",
       "from": "underscore.string@*",
